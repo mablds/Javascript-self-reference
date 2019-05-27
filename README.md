@@ -1,5 +1,5 @@
 # Javascript-self-reference
-Self reference to example of useful functions of JS.
+Self reference to examples of useful functions of JS.
 
 ## array.map
 ```
