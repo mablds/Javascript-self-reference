@@ -26,8 +26,8 @@ let revert = numbers.reverse()
 // revert é agora [4, 1]
 ```
 
-### Find
-    ```
+### Find 
+```
 const finduuu = (arr, op) => {
     for (let i = 0; i < arr.length; i++) {
         if (op(arr[i], i, arr)) {
@@ -38,7 +38,7 @@ const finduuu = (arr, op) => {
 ```
 
 ### Map
-    ```
+```
 const mapuu = (arr, op) => {
     let array = []
     for (let i = 0; i < arr.length; i++) {
@@ -49,7 +49,7 @@ const mapuu = (arr, op) => {
 ```
 
 ### For Each
-    ```
+```
 const forEachuu = (arr, op) => {
     for (let index = 0; index < arr.length; index++) {
         op(arr[index])
@@ -58,7 +58,7 @@ const forEachuu = (arr, op) => {
 ```
 
 ### Filter
-    ```
+```
 const filtuuu = (arr, op) => {
     let array = []
     for (let i = 0; i < arr.length; i++) {
@@ -71,7 +71,7 @@ const filtuuu = (arr, op) => {
 ```
 
 ### Reduce
-    ```
+```
 const reducuuu = (array, operacao, valorInicial) => {
     let acumulador = valorInicial
     for (let i = 0; i < array.length; i++) {
@@ -83,7 +83,7 @@ const reducuuu = (array, operacao, valorInicial) => {
 
 
 ### Test Json
-    ```
+```
 const fullReport = {
     "receber": [{
             "id": 1,
@@ -142,7 +142,7 @@ const fullReport = {
 
 
 ### Applying
-    ```
+```
 const aPagar = fullReport.pagar
 const aReceber = fullReport.receber
 
@@ -170,7 +170,7 @@ const contasRecebidas = filtuuu(aReceber, (e) => !e.status)
 ```
 
 ### Bad way
-    ```
+```
 for (let i = 0; i < aPagar.length; i++) {
     const element = aPagar[i];
     if (element.status === true) {
