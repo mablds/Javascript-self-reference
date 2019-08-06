@@ -1,15 +1,9 @@
 # Javascript-self-reference
 Self reference to examples of useful functions of JS.
 
-## array.map
-```
-let numbers = [1, 4, 9]
-let doubles = numbers.map(function(num) {
-  return num * 2
-})
-// doubles é agora [2, 8, 18]. numbers ainda é [1, 4, 9]
-```
+
 ### Asynchronous study
+```
 //1
 setTimeout(()=>{console.log('1', 'is the loneliest number')}, 0)
 setTimeout(()=>{console.log('2', 'can be as bad as one')}, 10)
@@ -19,13 +13,8 @@ Promise.resolve('hi').then((data)=> console.log('2', data))
 
 //3
 console.log('3','is a crowd')
+```
 
-### array.reverse
-```
-let numbers = [1, 4]
-let revert = numbers.reverse()
-// revert é agora [4, 1]
-```
 
 ### Find 
 ```
@@ -197,4 +186,12 @@ console.log('Contas a Receber: ')
 console.table(contasAReceber)
 console.log('Contas Recebidas: ')
 console.table(contasRecebidas)
+```
+
+
+### Reverse
+```
+let numbers = [1, 4]
+let revert = numbers.reverse()
+// revert é agora [4, 1]
 ```
