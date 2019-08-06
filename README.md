@@ -9,17 +9,18 @@ let doubles = numbers.map(function(num) {
 })
 // doubles é agora [2, 8, 18]. numbers ainda é [1, 4, 9]
 ```
-## array.filter
+### Asynchronous study
+//1
+setTimeout(()=>{console.log('1', 'is the loneliest number')}, 0)
+setTimeout(()=>{console.log('2', 'can be as bad as one')}, 10)
 
-## array.find
+//2
+Promise.resolve('hi').then((data)=> console.log('2', data))
 
-## array.forEach
+//3
+console.log('3','is a crowd')
 
-## array.includes
-
-## array.reduce
-
-## array.reverse
+### array.reverse
 ```
 let numbers = [1, 4]
 let revert = numbers.reverse()
