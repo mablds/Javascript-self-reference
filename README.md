@@ -14,7 +14,7 @@ Promise.resolve('hi').then((data)=> console.log('2', data))
 //3
 console.log('3','is a crowd')
 ```
-
+safnfmfa
 
 ### Find 
 ```
